@@ -7,16 +7,16 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="intro-heading">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              A fullstack web developer from Riga,Latvia. I create <b className="purple"> professional and responsive </b> web applications to help people go further online 
+              A full-stack web developer from Riga,Latvia. I create <b className="purple"> professional and responsive </b> web applications to help people go further online 
               <br />
               <br />I am able to integrate any kind of technologies, that will make your websites <b className="purple">user-friendly</b>
               <br />
               <br />
-              My expertise is to create fullstack <b className="purple">React.js and Node.js</b> websites, serversside logic and all the functionality using different programming technologies and frameworks
+              My expertise is to create full-stack <b className="purple">React.js and Node.js</b> websites, server-side logic and all the functionality using variety of Javascript technologies and frameworks
               <br />
               <br />
               I also apply my passion for developing products

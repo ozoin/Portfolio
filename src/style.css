@@ -190,6 +190,12 @@ html {
   }
 }
 
+@media (max-width: 850px) {
+  .home-header {
+    padding-top: 3.5em !important;
+  }
+}
+
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
@@ -266,8 +272,9 @@ html {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 80px;
 }
+
 
 .home-section {
   position: relative;
@@ -289,14 +296,26 @@ html {
 }
 
 .heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
+  font-size: 2.4em;
+  padding-left: 30px;
 }
 
 .heading-name {
-  font-size: 2.3em !important;
-  padding-left: 50px !important;
+  font-size: 2.3em ;
+  padding-left: 30px;
 }
+
+@media (max-width: 850px) {
+  .heading {
+    font-size: 1.8em !important;
+    padding-left: 30px !important;
+  }
+  .heading-name {
+    font-size: 1.8em !important;
+    padding-left: 30px !important;
+  }
+}
+
 
 .main-name {
   /* color: #cd5ff8; */
@@ -312,7 +331,19 @@ html {
   font-size: 2em !important;
   color: white !important;
 }
-
+.intro-heading {
+  font-size: 2.5em;
+}
+.myAvtar {
+  justify-content: center !important;
+  padding-top: 9em !important;
+}
+.project-heading {
+  color: white !important;
+  font-size: 2em;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.5em !important;
@@ -322,12 +353,19 @@ html {
   .Typewriter__cursor {
     display: none !important;
   }
+  .intro-heading {
+    font-size: 1.9em;
+  }
+  .myAvtar {
+    display:none;
+  }
+  .project-heading {
+    font-size: 1.9em;
+    text-align:center;
+  }
 }
 
-.myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
-}
+
 
 @media (max-width: 767px) {
   .myAvtar {
@@ -551,12 +589,7 @@ html {
   outline: none !important;
   box-shadow: none !important;
 }
-.project-heading {
-  color: white !important;
-  font-size: 2em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
-}
+
 
 /* --------- */
 /* About */
